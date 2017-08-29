@@ -21,8 +21,12 @@ angular.module('stoneCoast', [
                 templateUrl: 'templates/audio.html',
                 controller: 'homeController'
             })
-            .when('/video', {
-                templateUrl: 'templates/video.html',
+            .when('/team', {
+                templateUrl: 'templates/team.html',
+                controller: 'homeController'
+            })
+            .when('/apps', {
+                templateUrl: 'templates/apps.html',
                 controller: 'homeController'
             })
             .when('/privacy', {
@@ -33,8 +37,12 @@ angular.module('stoneCoast', [
                 templateUrl: 'templates/terms.html',
                 controller: 'homeController'
             })
-            .when('/images', {
-                templateUrl: 'templates/images.html',
+            .when('/testimonials', {
+                templateUrl: 'templates/testimonials.html',
+                controller: 'homeController'
+            })
+            .when('/web', {
+                templateUrl: 'templates/web.html',
                 controller: 'homeController'
             });
     });

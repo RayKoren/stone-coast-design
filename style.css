@@ -1,8 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800);
 body {
     margin: 0;
-    background-color: black;
-    color: whitesmoke;
+
 }
 body p {
     font-family: 'Lato', sans-serif;
@@ -13,11 +12,11 @@ body h1,h2,h3 {
 }
 header {
     font-family: 'Bungee', cursive;
-    background-color: black;
 }
 
 footer {
     background-color: black;
+    color: whitesmoke;
 }
 footer h1,h2,h3 {
     font-family: 'Bungee', cursive;
@@ -48,6 +47,27 @@ footer p {
     min-height:600px;
     max-height:600px;
     width: 850px;
+}
+#devIcon i {
+font-size: 5rem;
+margin: .5rem;
+}
+
+#devIcon a:hover{
+    text-decoration: none;
+}
+.figure  a:hover{
+    text-decoration: none;
+}
+.figure i {
+  font-size: 2rem;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
 }
 
 /*navbar*/
