@@ -17,6 +17,10 @@ angular.module('stoneCoast', [
                 templateUrl: 'templates/contact.html',
                 controller: 'homeController'
             })
+            .when('/seo', {
+                templateUrl: 'templates/seo.html',
+                controller: 'homeController'
+            })
             .when('/audio', {
                 templateUrl: 'templates/audio.html',
                 controller: 'homeController'
