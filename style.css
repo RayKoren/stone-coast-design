@@ -119,11 +119,11 @@ footer p {
 #homeTop {
   position: relative;
 
-  background: url(../images/DeathtoStock_Wired3.jpg) no-repeat center center scroll;
+  /*background: url(../images/DeathtoStock_Wired3.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 #homeMiddle {
