@@ -119,12 +119,22 @@ footer p {
   padding-bottom: 1rem;
 }
 
-@media(max-width:768px) {
+@media(max-width:767px) {
   #homeImage {
     height: 25rem;
     width: auto;
     padding-top: 5rem;
     padding-bottom: 1rem;
+  }
+  .services h1 {
+    font-size: 36px;
+  }
+  #homeMiddle h2 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  #servicesContent, #homeMiddle {
+    padding: 40px 0;
   }
 }
 
